@@ -1,2 +1,5 @@
 # ThreadLocalDemo
 ThreadLocal的使用
+ThreadLocal内部维护的是一个类似Map的ThreadLocalMap数据结构，而每个Thread类
+都有一个ThreadLocalMap成员变量。ThreadLocalMap将线程本地变量(ThreadLocal)
+作为key线程变量的副本作为value
